@@ -7,7 +7,7 @@ title: Privacy Policy
 
 **Last updated: March 1, 2026**
 
-This Privacy Policy describes how Open Breathwork Studio ("the App", "we", "us", or "our") collects, uses, and shares information when you use our iOS application. By using the App, you agree to the collection and use of information in accordance with this policy.
+This Privacy Policy describes how Open Breathwork Studio ("the App", "we", "us", or "our") collects, uses, and shares information when you use our iOS application. By using the App, you consent to the practices described in this Privacy Policy. If you do not agree, please discontinue use of the App.
 
 ## Information We Collect
 
@@ -61,9 +61,15 @@ We do not use your data for advertising, profiling, or selling to third parties.
 
 ### Mixpanel
 
-Analytics data is sent to **Mixpanel, Inc.**, based in the United States. Mixpanel processes this data on our behalf. You can review Mixpanel's privacy policy at: [https://mixpanel.com/legal/privacy-policy/](https://mixpanel.com/legal/privacy-policy/)
+Analytics data is sent to **Mixpanel, Inc.**, based in the United States. Mixpanel acts as a data processor under GDPR and processes data solely on our instructions. Mixpanel is SOC 2 Type II certified.
 
 As the App is provided by a Finnish company, transfers of data to Mixpanel in the US are covered by Standard Contractual Clauses in accordance with GDPR requirements.
+
+For more details on how Mixpanel handles data, see:
+
+- [Mixpanel Privacy Policy](https://mixpanel.com/legal/privacy-policy/)
+- [Mixpanel Data Processing Addendum](https://mixpanel.com/legal/dpa/)
+- [Mixpanel Security Overview](https://mixpanel.com/legal/security-overview/)
 
 ### Apple HealthKit
 
@@ -71,7 +77,7 @@ If you opt in to Apple Health sync, session data is written to HealthKit. We do 
 
 ## Data Retention
 
-Anonymous analytics data is retained by Mixpanel for as long as needed to fulfill the purposes described above. Because the data is anonymous (random UUID, no PII), it cannot be traced back to you.
+Anonymous analytics events are retained by Mixpanel for **180 days**, after which they are automatically deleted. Because the data is anonymous (random UUID, no PII), it cannot be traced back to you.
 
 On-device data (exercises, history, settings) persists until you delete it within the App or uninstall the App.
 
@@ -86,13 +92,25 @@ If you are in the European Economic Area, you have the right to:
 
 Because our analytics data is fully anonymous (not pseudonymous), it does not constitute personal data under GDPR in most interpretations. Nonetheless, we provide the opt-out toggle as a matter of good practice.
 
+To request deletion of any analytics data associated with your anonymous identifier, email us at [valtteri.e.laine@gmail.com](mailto:valtteri.e.laine@gmail.com) with the subject "Data Deletion Request". We will remove the data from Mixpanel within 30 days.
+
+You can also disable analytics in Settings at any time to stop all future data collection. Uninstalling the app removes all on-device data immediately.
+
 ## Children's Privacy
 
 The App does not knowingly collect any personally identifiable information from children under the age of 13. If you believe a child has provided personal data to us, please contact us so we can take appropriate action.
 
 ## Changes to This Privacy Policy
 
-We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated "Last updated" date. We encourage you to review this page periodically.
+We will update this Privacy Policy when our data practices change. If we make material changes, we will notify you through an in-app notice or by updating the App Store listing before the changes take effect. Changes will be posted on this page with an updated "Last updated" date.
+
+## App Store Privacy Labels
+
+The following reflects what we declare in our App Store privacy labels:
+
+- **Data Used to Track You**: None
+- **Data Linked to You**: None
+- **Data Not Linked to You**: Identifiers (anonymous UUID), Usage Data (product interaction) — collected for Analytics purposes
 
 ## Contact Us
 
