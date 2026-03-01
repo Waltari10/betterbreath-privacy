@@ -90,11 +90,15 @@ If you are in the European Economic Area, you have the right to:
 - **Object to processing** by disabling analytics in Settings
 - **Data portability** — since analytics data is anonymous and not linked to your identity, there is no personal data to export
 
-Because our analytics data is fully anonymous (not pseudonymous), it does not constitute personal data under GDPR in most interpretations. Nonetheless, we provide the opt-out toggle as a matter of good practice.
+The analytics data collected does not include direct identifiers such as name, email, or contact information. While a random identifier is used to distinguish devices, it is not linked to any personally identifiable information.
 
 To request deletion of any analytics data associated with your anonymous identifier, email us at [valtteri.e.laine@gmail.com](mailto:valtteri.e.laine@gmail.com) with the subject "Data Deletion Request". We will remove the data from Mixpanel within 30 days.
 
 You can also disable analytics in Settings at any time to stop all future data collection. Uninstalling the app removes all on-device data immediately.
+
+## Legal Basis for Processing
+
+We process anonymous analytics data based on legitimate interest (Article 6(1)(f) GDPR) to improve app performance and usability. Users can object to this processing at any time by disabling analytics in Settings.
 
 ## Children's Privacy
 
