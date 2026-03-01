@@ -57,6 +57,10 @@ We use anonymous analytics data solely to:
 
 We do not use your data for advertising, profiling, or selling to third parties.
 
+## Legal Basis for Processing
+
+We process anonymous analytics data based on legitimate interest (Article 6(1)(f) GDPR) to improve app performance and usability. We have assessed that our legitimate interest in improving the App does not override users' fundamental rights and freedoms, particularly given the minimal and non-identifying nature of the data collected. Users can object to this processing at any time by disabling analytics in Settings.
+
 ## Third-Party Services
 
 ### Mixpanel
@@ -77,7 +81,7 @@ If you opt in to Apple Health sync, session data is written to HealthKit. We do 
 
 ## Data Retention
 
-Anonymous analytics events are retained by Mixpanel for **180 days**, after which they are automatically deleted. Because the data is anonymous (random UUID, no PII), it cannot be traced back to you.
+Anonymous analytics events are retained by Mixpanel for **180 days**, after which they are automatically deleted. The analytics data does not include direct personal identifiers such as name, email, or contact information. The random identifier is used only to distinguish devices and is not linked to personally identifiable information.
 
 On-device data (exercises, history, settings) persists until you delete it within the App or uninstall the App.
 
@@ -95,10 +99,6 @@ The analytics data collected does not include direct identifiers such as name, e
 To request deletion of any analytics data associated with your anonymous identifier, email us at [valtteri.e.laine@gmail.com](mailto:valtteri.e.laine@gmail.com) with the subject "Data Deletion Request". We will remove the data from Mixpanel within 30 days.
 
 You can also disable analytics in Settings at any time to stop all future data collection. Uninstalling the app removes all on-device data immediately.
-
-## Legal Basis for Processing
-
-We process anonymous analytics data based on legitimate interest (Article 6(1)(f) GDPR) to improve app performance and usability. Users can object to this processing at any time by disabling analytics in Settings.
 
 ## Children's Privacy
 
