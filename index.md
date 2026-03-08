@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Privacy Policy
+title: Lotus Breath - Privacy Policy
 ---
 
-# Privacy Policy for Free Breathing Meditation
+# Privacy Policy for Lotus Breath
 
 **Last updated: March 1, 2026**
 
-This Privacy Policy describes how Free Breathing Meditation ("the App", "we", "us", or "our") collects, uses, and shares information when you use our iOS application. By using the App, you consent to the practices described in this Privacy Policy. If you do not agree, please discontinue use of the App.
+This Privacy Policy describes how Lotus Breath ("the App", "we", "us", or "our") collects, uses, and shares information when you use our iOS application. By using the App, you consent to the practices described in this Privacy Policy. If you do not agree, please discontinue use of the App.
 
 ## Information We Collect
 
