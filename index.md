@@ -43,8 +43,10 @@ Mixpanel's automatic event tracking is disabled. Only the events listed above ar
 
 You can disable anonymous analytics at any time from the **Settings** screen in the App. When you opt out:
 
-- No further analytics events or crash reports are sent
+- No further analytics events are sent
 - Previously collected data remains anonymous and cannot be linked to you
+
+Crash and error reporting via Sentry remains active regardless of the analytics setting, as it is necessary to maintain app stability. This data is minimal, anonymous, and collected only when an error occurs.
 
 ### Data Stored on Your Device
 
