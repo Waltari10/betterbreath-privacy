@@ -5,7 +5,7 @@ title: Lotus Breath - Privacy Policy
 
 # Privacy Policy for Lotus Breath
 
-**Last updated: March 1, 2026**
+**Last updated: April 3, 2026**
 
 This Privacy Policy describes how Lotus Breath ("the App", "we", "us", or "our") collects, uses, and shares information when you use our iOS application. By using the App, you consent to the practices described in this Privacy Policy. If you do not agree, please discontinue use of the App.
 
@@ -13,7 +13,7 @@ This Privacy Policy describes how Lotus Breath ("the App", "we", "us", or "our")
 
 ### Anonymous Analytics Data
 
-We use **Mixpanel**, a third-party analytics service, to understand how the App is used and to improve it. When analytics is enabled, the following data is collected:
+We use **Mixpanel**, a third-party analytics service, to understand how the App is used and to improve it. We also use **Sentry**, a third-party error monitoring service, to detect and fix crashes and errors. When analytics is enabled, the following data is collected:
 
 - **Anonymous identifier**: A randomly generated UUID stored on your device. This identifier is not linked to your name, email, Apple ID, or any other personally identifiable information.
 - **Usage events**: We track the following actions within the App:
@@ -23,22 +23,27 @@ We use **Mixpanel**, a third-party analytics service, to understand how the App 
   - Exercise creation, editing, and deletion
   - Donation actions
   - Settings changes (which setting was toggled, not personal details)
+- **Crash and error reports**: When the App encounters a crash or error, Sentry automatically collects:
+  - Error type and stack trace
+  - Device model and operating system version
+  - App version
+  - Anonymous device identifier (not linked to your identity)
 
 We do **not** collect:
 
 - Your name, email address, or any contact information
-- IP addresses, device IDs, or hardware identifiers
+- IP addresses (Sentry is configured to discard IP addresses before storage)
 - Location data
 - Health data (HealthKit data stays on your device and with Apple)
 - Browsing history or data from other apps
 
-Mixpanel's automatic event tracking is disabled. Only the events listed above are sent.
+Mixpanel's automatic event tracking is disabled. Only the events listed above are sent. Sentry only collects data when an error or crash occurs.
 
 ### Opting Out of Analytics
 
 You can disable anonymous analytics at any time from the **Settings** screen in the App. When you opt out:
 
-- No further analytics events are sent
+- No further analytics events or crash reports are sent
 - Previously collected data remains anonymous and cannot be linked to you
 
 ### Data Stored on Your Device
@@ -59,7 +64,7 @@ We do not use your data for advertising, profiling, or selling to third parties.
 
 ## Legal Basis for Processing
 
-We process anonymous analytics data based on legitimate interest (Article 6(1)(f) GDPR) to improve app performance and usability. We have assessed that our legitimate interest in improving the App does not override users' fundamental rights and freedoms, particularly given the minimal and non-identifying nature of the data collected. Users can object to this processing at any time by disabling analytics in Settings.
+We process anonymous analytics and crash reporting data based on legitimate interest (Article 6(1)(f) GDPR) to improve app performance, stability, and usability. We have assessed that our legitimate interest in improving the App does not override users' fundamental rights and freedoms, particularly given the minimal and non-identifying nature of the data collected. Users can object to this processing at any time by disabling analytics in Settings.
 
 ## Third-Party Services
 
@@ -75,13 +80,25 @@ For more details on how Mixpanel handles data, see:
 - [Mixpanel Data Processing Addendum](https://mixpanel.com/legal/dpa/)
 - [Mixpanel Security Overview](https://mixpanel.com/legal/security-overview/)
 
+### Sentry
+
+Crash and error reports are sent to **Functional Software, Inc. (Sentry)**, based in the United States. Sentry acts as a data processor under GDPR and processes data solely on our instructions. IP address scrubbing is enabled, so Sentry does not store your IP address. Sentry is SOC 2 Type II certified.
+
+As the App is provided by a Finnish company, transfers of data to Sentry in the US are covered by Standard Contractual Clauses in accordance with GDPR requirements.
+
+For more details on how Sentry handles data, see:
+
+- [Sentry Privacy Policy](https://sentry.io/privacy/)
+- [Sentry Data Processing Addendum](https://sentry.io/legal/dpa/)
+- [Sentry Security & Compliance](https://sentry.io/security/)
+
 ### Apple HealthKit
 
 If you opt in to Apple Health sync, session data is written to HealthKit. We do not read from or access your HealthKit data beyond writing completed sessions. Apple's HealthKit privacy policy applies to this data.
 
 ## Data Retention
 
-Anonymous analytics events are retained by Mixpanel for **180 days**, after which they are automatically deleted. The analytics data does not include direct personal identifiers such as name, email, or contact information. The random identifier is used only to distinguish devices and is not linked to personally identifiable information.
+Anonymous analytics events are retained by Mixpanel for **180 days**, after which they are automatically deleted. Crash and error reports are retained by Sentry for **90 days**. The analytics and error data does not include direct personal identifiers such as name, email, or contact information. The random identifier is used only to distinguish devices and is not linked to personally identifiable information.
 
 On-device data (exercises, history, settings) persists until you delete it within the App or uninstall the App.
 
@@ -96,7 +113,7 @@ If you are in the European Economic Area, you have the right to:
 
 The analytics data collected does not include direct identifiers such as name, email, or contact information. While a random identifier is used to distinguish devices, it is not linked to any personally identifiable information.
 
-To request deletion of any analytics data associated with your anonymous identifier, email us at [valtteri.e.laine@gmail.com](mailto:valtteri.e.laine@gmail.com) with the subject "Data Deletion Request". We will remove the data from Mixpanel within 30 days.
+To request deletion of any analytics data associated with your anonymous identifier, email us at [valtteri.e.laine@gmail.com](mailto:valtteri.e.laine@gmail.com) with the subject "Data Deletion Request". We will remove the data from Mixpanel and Sentry within 30 days.
 
 You can also disable analytics in Settings at any time to stop all future data collection. Uninstalling the app removes all on-device data immediately.
 
@@ -114,7 +131,7 @@ The following reflects what we declare in our App Store privacy labels:
 
 - **Data Used to Track You**: None
 - **Data Linked to You**: None
-- **Data Not Linked to You**: Identifiers (anonymous UUID), Usage Data (product interaction) — collected for Analytics purposes
+- **Data Not Linked to You**: Identifiers (anonymous UUID), Usage Data (product interaction), Diagnostics (crash data) — collected for Analytics and App Functionality purposes
 
 ## Contact Us
 
