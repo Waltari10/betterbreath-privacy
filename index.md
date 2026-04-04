@@ -5,7 +5,7 @@ title: Lotus Breath - Privacy Policy
 
 # Privacy Policy for Lotus Breath
 
-**Last updated: April 3, 2026**
+**Last updated: April 4, 2026**
 
 This Privacy Policy describes how Lotus Breath ("the App", "we", "us", or "our") collects, uses, and shares information when you use our iOS application. By using the App, you consent to the practices described in this Privacy Policy. If you do not agree, please discontinue use of the App.
 
@@ -21,7 +21,7 @@ We use **Mixpanel**, a third-party analytics service, to understand how the App 
   - Onboarding progress and completion
   - Breathing exercise starts, completions, and early exits
   - Exercise creation, editing, and deletion
-  - Donation actions
+  - In-app purchase actions (e.g. product viewed, purchase completed)
   - Settings changes (which setting was toggled, not personal details)
 - **Crash and error reports**: When the App encounters a crash or error, Sentry automatically collects:
   - Error type and stack trace
@@ -48,9 +48,11 @@ You can disable anonymous analytics at any time from the **Settings** screen in 
 
 Crash and error reporting via Sentry remains active regardless of the analytics setting, as it is necessary to maintain app stability. This data is minimal, anonymous, and collected only when an error occurs.
 
-### Data Stored on Your Device
+### Data Stored on Your Device and in iCloud
 
-The App stores your breathing exercises, practice history, settings, and streak data locally on your device using Apple's on-device database. This data is not transmitted to us or any third party.
+The App stores your breathing exercises, practice history, settings, streak data, and in-app purchase state (such as XP boost status and streak freeze count) locally on your device using Apple's on-device database. This data is automatically synced across your devices through your private iCloud account via Apple's CloudKit service. The synced data is stored in your personal iCloud storage and is not accessible to us. Apple's iCloud terms and privacy policy govern this data.
+
+We do not operate any custom servers. We do not have access to your iCloud data or your Apple ID.
 
 If you enable **Sync to Apple Health**, completed breathing sessions are written to Apple HealthKit on your device. This data is governed by Apple's privacy policies and is never accessed by us.
 
@@ -98,11 +100,19 @@ For more details on how Sentry handles data, see:
 
 If you opt in to Apple Health sync, session data is written to HealthKit. We do not read from or access your HealthKit data beyond writing completed sessions. Apple's HealthKit privacy policy applies to this data.
 
+### In-App Purchases (Apple StoreKit)
+
+The App offers optional in-app purchases, including XP boosts and streak freezes. All payment processing is handled entirely by **Apple** through the App Store. We do not collect, process, or store any payment information such as credit card numbers, billing addresses, or Apple ID credentials.
+
+When you make a purchase, the App stores a record of the purchase state (such as boost multiplier, boost expiry date, and streak freeze count) locally on your device and in your private iCloud account, as described above. We track anonymous analytics events related to purchase actions (e.g. that a purchase was completed and which product was involved) through Mixpanel, as described in the Analytics section. These events contain only the product identifier and the event type. They do not include transaction IDs, prices, payment methods, receipt data, or any information that could identify the transaction with Apple.
+
+Apple's App Store terms and privacy policy govern the payment transaction itself. For more details, see [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
+
 ## Data Retention
 
 Anonymous analytics events are retained by Mixpanel for **180 days**, after which they are automatically deleted. Crash and error reports are retained by Sentry for **90 days**. The analytics and error data does not include direct personal identifiers such as name, email, or contact information. The random identifier is used only to distinguish devices and is not linked to personally identifiable information.
 
-On-device data (exercises, history, settings) persists until you delete it within the App or uninstall the App.
+On-device data (exercises, history, settings, and purchase state) persists until you delete it within the App or uninstall the App. Data synced to iCloud persists in your iCloud account until you delete it from the App on a synced device or delete it through your iCloud account settings. We cannot delete iCloud data on your behalf, as we do not have access to it.
 
 ## Your Rights (GDPR)
 
@@ -133,7 +143,7 @@ The following reflects what we declare in our App Store privacy labels:
 
 - **Data Used to Track You**: None
 - **Data Linked to You**: None
-- **Data Not Linked to You**: Identifiers (anonymous UUID), Usage Data (product interaction), Diagnostics (crash data) — collected for Analytics and App Functionality purposes
+- **Data Not Linked to You**: Identifiers (anonymous UUID), Usage Data (product interaction), Diagnostics (crash data), Purchases (anonymous purchase events collected for analytics) — collected for Analytics and App Functionality purposes
 
 ## Contact Us
 
