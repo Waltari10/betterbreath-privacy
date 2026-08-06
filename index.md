@@ -5,7 +5,7 @@ title: Lotus Breath - Privacy Policy
 
 # Privacy Policy for Lotus Breath
 
-**Last updated: April 12, 2026**
+**Last updated: August 6, 2026**
 
 This Privacy Policy describes how Lotus Breath ("the App", "we", "us", or "our") collects, uses, and shares information when you use our iOS application. By using the App, you consent to the practices described in this Privacy Policy. If you do not agree, please discontinue use of the App.
 
@@ -118,14 +118,13 @@ If you opt in to Apple Health sync, session data is written to HealthKit. We do 
 
 ### In-App Purchases (Apple StoreKit)
 
-The App offers optional in-app purchases, including XP boosts and streak freezes. All payment processing is handled entirely by **Apple** through the App Store. We do not collect, process, or store any payment information such as credit card numbers, billing addresses, or Apple ID credentials.
+The App offers optional in-app purchases. All payment processing is handled entirely by **Apple** through the App Store. We do not collect, process, or store any payment information such as credit card numbers, billing addresses, or Apple ID credentials.
 
 When you make a purchase, the App stores a purchase record on your device and in your private iCloud account containing:
 
 - A StoreKit transaction identifier (used to prevent duplicate records)
 - The product identifier (which product was purchased)
 - The purchase date
-- Boost details (multiplier and duration), if applicable
 
 These records are used for cross-device purchase restoration and are stored only in your personal iCloud storage. We do not have access to them.
 
